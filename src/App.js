@@ -1,18 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route,Routes } from 'react-router-dom';
-
+import { useState } from 'react';
 
 import Temp from './route/Temp';
-import Resume from './route/Resume';
+import Resumeb from './route/Resumeb';
 import Samples from './route/Samples'; 
 import Home from './route/Home ';
+import Login from './route/Login';
 
-import Resume1 from './component/Resume1';
 
 
 
 function App() {
+  const[isAuth, setIsAuth] = useState(false);
   return (
 
     <Routes>
@@ -20,8 +21,9 @@ function App() {
       <Route path="/" element={<Home />} />
 
       <Route path="/temp" element={<Temp/>} />
-      <Route path="/resume1" element={<Resume1/>} />
+      <Route path="/resumeb" element={<Resumeb/>} />
       <Route path="/sample" element={<Samples/>} />
+      <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
 
       
       

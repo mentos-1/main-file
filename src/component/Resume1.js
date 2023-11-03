@@ -5,8 +5,6 @@ export class Resume1 extends Component {
     render() {
       return(
     <div>
-
-<Dupnav/>
         <body>
             
     

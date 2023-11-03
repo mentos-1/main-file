@@ -3,7 +3,7 @@ import '../css/main.css';
 import image1 from '../assest/image1.webp';
 import resu from '../assest/resu.png';
 import first from '../assest/first.svg';
-import Resume1 from '../route/Resume.js';
+import Resume1 from '../route/Resumeb.js';
 import { Link } from 'react-router-dom';
 
 

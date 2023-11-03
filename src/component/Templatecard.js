@@ -18,7 +18,7 @@ const Templatecard = (props) => {
                 <img src={props.imgsrc} alt="Examples" />
                 </button> } */}
                 
-                
+                <img src={props.imgsrc} alt="Examples" id='myImg' />
        
        </div>     
     </div>

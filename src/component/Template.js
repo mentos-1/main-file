@@ -1,7 +1,7 @@
-import "../css/Samplestyle.css";
+import "../css/Tempstylec.css";
 import Resume1 from "./Resume1";
-import Samplecard from './Samplecard';
-import Samplecarddata from './Samplecarddata';
+import Templatecard from "./Templatecard";
+import Templatecarddata from "./Templatecarddata";
 import { Link } from 'react-router-dom';
 import React,{useState} from 'react'
 
@@ -12,10 +12,10 @@ const Template = () => {
       <div className="ssample-container">
         <h1 className="sample-heading" > Template </h1>
         <div className="sample-container">
-            {Samplecarddata.map((val, ind) => {
+            {Templatecarddata.map((val, ind) => {
                 return(
-                  <Link to='/resume1'>
-                    <Samplecard
+                  <Link to='/resumeb'>
+                    <Templatecard
                     key = {ind}
                     imgsrc ={val.imgsrc}/>
                     </Link>

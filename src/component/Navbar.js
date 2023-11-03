@@ -28,8 +28,8 @@ const Navbar = () => {
             </ul>
 
            
-            <Link to = "/login" className = " btn btn-success me-md-5 ">RESUME</Link>
-            <Link to = "/Resume1" className = " btn btn-success me-md-2 ">Login</Link>
+            <Link to = "/temp1" className = " btn btn-success me-md-5 ">RESUME</Link>
+            <Link to = "/login" className = " btn btn-success me-md-2 ">Login</Link>
             
 
 

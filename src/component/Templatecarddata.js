@@ -51,4 +51,4 @@ const Templatecarddata = [
     }
 ];
 
-export default Samplecarddata;
+export default Templatecarddata;
